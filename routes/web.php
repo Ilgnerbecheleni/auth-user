@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/imagem/{nomeDaImagem}', 'ImagemController@mostrarImagem($nomeDaImagem)');
+
 
